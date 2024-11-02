@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
       <ToastContainer />
-      <Router>
+      <Router basename="/admin">
         <AccessibleNavigationAnnouncer />
         <Switch>
           <Route path="/login" component={Login} />
